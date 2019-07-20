@@ -1,0 +1,8 @@
+[Plugin]
+Module=no-counters
+Loader=python3
+IAge=2
+Name=No counters
+Description=No counters for unread items in the feedlist
+Authors=Mike Gerber
+Copyright=Copyright © 2019 Mike Gerber
