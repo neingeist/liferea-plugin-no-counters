@@ -1,7 +1,7 @@
 from gi.repository import GObject, Liferea
 
-class NrNoCountersPlugin (GObject.Object, Liferea.ShellActivatable):
-    __gtype_name__ = 'NrNoCountersPlugin'
+class NoCountersPlugin (GObject.Object, Liferea.ShellActivatable):
+    __gtype_name__ = 'NoCountersPlugin'
 
     shell = GObject.property (type=Liferea.Shell)
 
