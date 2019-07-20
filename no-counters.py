@@ -8,6 +8,7 @@ class NoCountersPlugin (GObject.Object, Liferea.ShellActivatable):
     def do_activate (self):
         self.treeview = self.shell.lookup ("feedlist")
         self.counter_column = self.treeview.get_column (1)
+
         self.counter_column.set_visible (False)
         self.treeview.queue_draw ()
         return
